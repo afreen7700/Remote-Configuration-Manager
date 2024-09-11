@@ -1,0 +1,56 @@
+.app {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sidebar button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background: none;
+    color: white;
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  .sidebar button:hover {
+    background-color: #575757;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .tabs button {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .content {
+    margin-top: 20px;
+  }
+  
+  .content label {
+    margin-right: 10px;
+  }
+  
+  .read-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
